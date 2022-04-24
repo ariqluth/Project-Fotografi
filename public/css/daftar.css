@@ -24,7 +24,7 @@ section .imgBx::before{
     content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     background : linear-gradient(225deg, #583535, #f9f9f9);
@@ -35,7 +35,7 @@ section .imgBx::before{
 section .imgBx img {
     position: absolute;
     top: -18px;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 105%;
     object-fit: cover;
